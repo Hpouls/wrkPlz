@@ -17,18 +17,34 @@
    fx:controller="sample.Controller">
    <padding>
         <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
-    </padding>
-    <AnchorPane prefHeight="398.0" prefWidth="422.0">
-        <children>
-            <Label layoutX="101.0" layoutY="-1.0" text="The Chat">
-                <font>
-                    <Font size="18.0" />
-                </font>
+   </padding>
+   <AnchorPane prefHeight="398.0" prefWidth="422.0">
+       <children>
+           <Label layoutX="101.0" layoutY="-1.0"
+                  text="The Chat">
+             <font>
+               <Font size="18.0" />
+             </font>
             </Label>
-            <Button layoutX="14.0" layoutY="253.0" onAction="#hostChat" text="Host a chat server" />
-            <Button layoutX="168.0" layoutY="253.0" onAction="#joinChat" text="Join a chats server" />
-            <TextArea layoutX="5.0" layoutY="44.0" prefHeight="77.0" prefWidth="262.0"
-                      text="Welcome to our secrete chat room&#10;Here you only have 2 choices&#10;Host a new chat room and invite your friends,&#10;or join a chat room with a code from a friend " wrapText="true" />
+            <Button
+                layoutX="14.0" layoutY="253.0"
+                onAction="#hostChat"
+                text="Host a chat server"
+            />
+            <Button
+                layoutX="168.0" layoutY="253.0"
+                onAction="#joinChat"
+                text="Join a chats server"
+            />
+            <TextArea
+                layoutX="5.0" layoutY="44.0"
+                prefHeight="77.0" prefWidth="262.0"
+                text="Welcome to our secrete chat room&#10;
+                        Here you only have 2 choices&#10;
+                        Host a new chat room and invite your friends,&#10;
+                        or join a chat room with a code from a friend "
+                wrapText="true"
+            />
         </children>
     </AnchorPane>
 </VBox>
