@@ -8,35 +8,69 @@
 <?import javafx.scene.layout.VBox?>
 <?import javafx.scene.text.Font?>
 
-<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="404.0" prefWidth="470.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1">
+<VBox
+        maxHeight="-Infinity" maxWidth="-Infinity"
+        minHeight="-Infinity" minWidth="-Infinity"
+        prefHeight="404.0" prefWidth="470.0"
+        xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1">
    <children>
-      <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="405.0" prefWidth="465.0">
+      <AnchorPane
+              maxHeight="-Infinity" maxWidth="-Infinity"
+              minHeight="-Infinity" minWidth="-Infinity"
+              prefHeight="405.0" prefWidth="465.0">
          <children>
-            <Button layoutX="39.0" layoutY="329.0" mnemonicParsing="false" text="Leave Chat Room">
+            <Button
+                    layoutX="39.0" layoutY="329.0"
+                    mnemonicParsing="false"
+                    text="Leave Chat Room">
                <font>
                   <Font size="18.0" />
                </font>
             </Button>
-            <AnchorPane layoutX="213.0" layoutY="28.0" prefHeight="321.0" prefWidth="234.0">
+            <AnchorPane
+                    layoutX="213.0" layoutY="28.0"
+                    prefHeight="321.0" prefWidth="234.0">
                <children>
-                  <Label layoutX="43.0" layoutY="14.0" text="Chat at xxx.x.xx.xxx">
+                  <Label
+                          layoutX="43.0" layoutY="14.0"
+                          text="Chat at xxx.x.xx.xxx">
                      <font>
-                        <Font size="18.0" />
+                        <Font size="18.0"
+                        />
                      </font>
                   </Label>
-                  <TextField layoutX="14.0" layoutY="315.0" promptText="What's on your mind?" />
-                  <Button layoutX="174.0" layoutY="315.0" mnemonicParsing="false" text="Button" />
-                  <TextArea layoutX="17.0" layoutY="49.0" prefHeight="256.0" prefWidth="200.0" wrapText="true" />
+                  <TextField
+                          layoutX="14.0" layoutY="315.0"
+                          promptText="What's on your mind?"
+                  />
+                  <Button
+                          layoutX="174.0" layoutY="315.0"
+                          mnemonicParsing="false"
+                          text="Button"
+                  />
+                  <TextArea
+                          layoutX="17.0" layoutY="49.0"
+                          prefHeight="256.0" prefWidth="200.0"
+                          wrapText="true"
+                  />
                </children>
             </AnchorPane>
-            <AnchorPane layoutX="21.0" layoutY="28.0" prefHeight="112.0" prefWidth="200.0">
+            <AnchorPane
+                    layoutX="21.0" layoutY="28.0"
+                    prefHeight="112.0" prefWidth="200.0">
                <children>
-                  <Label layoutX="41.0" layoutY="14.0" text="Clients in chat">
+                  <Label
+                          layoutX="41.0" layoutY="14.0"
+                          text="Clients in chat">
                      <font>
                         <Font size="18.0" />
                      </font>
                   </Label>
-                  <TextArea layoutX="14.0" layoutY="48.0" prefHeight="122.0" prefWidth="163.0" wrapText="true" />
+                  <TextArea
+                          layoutX="14.0" layoutY="48.0"
+                          prefHeight="122.0" prefWidth="163.0"
+                          wrapText="true"
+                  />
                </children>
             </AnchorPane>
          </children>

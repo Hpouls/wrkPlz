@@ -8,28 +8,52 @@
 <?import javafx.scene.text.Font?>
 
 
-<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="214.0" prefWidth="389.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1">
+<VBox
+        maxHeight="-Infinity" maxWidth="-Infinity"
+        minHeight="-Infinity" minWidth="-Infinity"
+        prefHeight="214.0" prefWidth="389.0"
+        xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1">
    <children>
-      <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="212.0" prefWidth="388.0">
+      <AnchorPane
+              maxHeight="-Infinity" maxWidth="-Infinity"
+              minHeight="-Infinity" minWidth="-Infinity"
+              prefHeight="212.0" prefWidth="388.0">
          <children>
-            <Label layoutX="29.0" layoutY="76.0" text="Enter IP address">
+            <Label
+                    layoutX="29.0" layoutY="76.0"
+                    text="Enter IP address">
                <font>
                   <Font size="14.0" />
                </font>
             </Label>
-            <TextField layoutX="28.0" layoutY="102.0" promptText="IPv4" />
-            <TextField layoutX="217.0" layoutY="102.0" promptText="Chat name" />
-            <Label layoutX="218.0" layoutY="77.0" text="Enter chat name">
+            <TextField
+                    layoutX="28.0" layoutY="102.0"
+                    promptText="IPv4"
+            />
+            <TextField
+                    layoutX="217.0" layoutY="102.0"
+                    promptText="Chat name"
+            />
+            <Label
+                    layoutX="218.0" layoutY="77.0"
+                    text="Enter chat name">
                <font>
                   <Font size="14.0" />
                </font>
             </Label>
-            <Button layoutX="308.0" layoutY="158.0" mnemonicParsing="false" text="Enter">
+            <Button
+                    layoutX="308.0" layoutY="158.0"
+                    mnemonicParsing="false"
+                    text="Enter">
                <font>
                   <Font size="18.0" />
                </font>
             </Button>
-            <Label layoutX="123.0" layoutY="75.0" text="*" textFill="#e10000" />
+            <Label
+                    layoutX="123.0" layoutY="75.0"
+                    text="*"
+                    textFill="#e10000"
+            />
          </children>
       </AnchorPane>
    </children>
