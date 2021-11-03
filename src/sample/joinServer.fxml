@@ -12,7 +12,7 @@
    <children>
       <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="212.0" prefWidth="388.0">
          <children>
-            <Label layoutX="29.0" layoutY="76.0" text="Enter IP addres">
+            <Label layoutX="29.0" layoutY="76.0" text="Enter IP address">
                <font>
                   <Font size="14.0" />
                </font>
